@@ -1,19 +1,13 @@
 contact:
-    name: David Y. Hu
-    email: 'david@[david-hu.com](http://david-hu.com)'
-    github: '[github.com/divad12](https://github.com/divad12)'
+    name: Saravana Kumar
+    email: '[saran87@gmail.com](mailto:saran87@gmail.com)'
+    github: '[github.com/saran87](https://github.com/saran87)'
     stackoverflow: '[stackoverflow.com/users/392426](http://stackoverflow.com/users/392426)'
-
+    website: '[sknadar.me](http://sknadar.me)'
 projects:
-    - '[NumbersAPI.com](http://numbersapi.com): An API for interesting facts about numbers (about 10K requests per day). Blog post: [david-hu.com/numapi.html](http://david-hu.com/numapi.html)'
-    - 'Personal blog [david-hu.com](http://david-hu.com): 50 000 unique visitors'
-    - 'Built web apps in Flask + MongoEngine, Rails + Mongoid, App Engine, Node.js + Express, Django + MySQL, C# + ASP.NET'
-    - 'First place optimizing compiler for university competition'
-    - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
-    - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
-    - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
-    - 'MSN plugins: conversation bot, multiplayer display name game'
-    - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
+    - 'Massive data analysis projects, friends of friends recommendation, Twitter sentiment analysis, recommendation engine using collaborative filtering [https://github.com/saran87/machine-learning](https://github.com/saran87/machine-learning)'
+    - 'Built an light weight MVC framework for PHP, and developed a two player game on it, Check [game arcade](https://github.com/saran87/gamearcade) '
+    - 'Built web apps in AngularJS + Laravel + MongoDB, PHP + MySQL, C# + ASP.NET'
 #- Technical Knowledge:
     #- 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
     #- 'JavaScript: Optimizations and browser bug workarounds for Google Docs; Node.js; jQuery'
@@ -27,142 +21,68 @@ projects:
     #- 'Interested in startups, AI, machine learning, compilers, algorithms'
 
 work:
-    - employer: Sift Science
+    - employer: '[pak-track.com](http://www.pak-track.com)'
       title: Software Developer Intern
-      location: San Francisco, CA
-      dates: January 2013 - August 2013
+      location: Rochester, NY
+      dates: January 2013 - Present
       description:
-        - "Led the development and design of our user-facing product: fraud visualization dashboard"
-        - 'Set up the frontend stack consisting of Backbone.js, Marionette.js, Handlebars.js, and others'
-        - 'Redesigned home page, jobs page, pricing page, blog page; mentored an intern during summer'
-    - employer: '[uwflow.com](http://uwflow.com): social course planning'
-      title: Co-founder
-      location: Waterloo, Canada
+        - "Led the software development team and developed the infrastructure to store, analyze and visualize streaming data from sensors"
+        - 'Developed a model for predicting drop height and face using machine learning techniques'
+        - 'Set up the frontend stack consisting of AngularJS, lineman.js, d3.js, and karma.js'
+        - 'Worked with Java, C, Protocol Buffer, MongoDB, MySQL, JavaScript, d3.js, AWS, Redis'
+    - employer: '[CausBuzz](http://causbuzz.com): Parental Engagement'
+      title: Co-founder & CTO
+      location: Rochester, NY
       dates: September 2012 - Present
       description:
-        - 'Side project with two friends. Beta has 3800 users and 50 000 user-submitted ratings'
-        - 'Worked with Sass, Bootstrap, Require.js, Backbone, Redis, Mongo, Python + Flask, AWS'
-        - 'Coding, UI design, system administration, A/B testing, emails, pitching, team planning'
-    - employer: Khan Academy
-      title: Software Developer Intern
-      location: Mountain View, CA
-      dates: May 2012 - August 2012
+        - 'Side project with two friends. Beta has 3 schools and 1000 registered parents'
+        - 'Worked with Sass, Bootstrap, AngularJS,NodeJS, Laravel, MySQL, MongoDB, AWS'
+        - 'Coding, UI design, system administration, A/B testing, emails, client presentation, team planning'
+    - employer: Infosys
+      title: Senior System Engineer
+      location: Chennai, India
+      dates: June 2008 - August 2011
       description:
-        - 'Presented a [TEDx talk](http://storify.com/tedxufm/tedxufm-david-hu-divad-12-on-tedxufm-2012) on my previous work'
-        - 'Full-stack data analytics: Apache Hive for data warehousing and Backbone.js and Bootstrap for frontend dashboard'
-        - '3 hackathon projects in 24hrs (all shipped): real-time map of users; 2x video speed; RSS feed'
-        - 'Independently conceived and wrote continuous integration & deployment tool: [github.com/Khan/gae-continuous-deploy](https://github.com/Khan/gae-continuous-deploy)'
-        - 'Organized bike trip from Mountain View to SF; [helped new interns](https://github.com/Khan/khan-dotfiles); popular [CS hack project](http://www.khanacademy.org/cs/m/938561708)'
-    - employer: Khan Academy
-      title: Software Developer Intern
-      location: Mountain View, CA
-      dates: August 2011 - December 2011
-      description:
-        - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): [david-hu.com/ka-ml.html](http://david-hu.com/ka-ml.html)'
-        - 'Increased student proficiencies by 20%, hint usage by 55%, review problem usage by 22%'
-        - 'Data viz in Python; map reduce scripts; UI design; see [david-hu.com/ka-internship-post-mortem.html](http://david-hu.com/ka-internship-post-mortem.html)'
-        - 'See GitHub commits ([david-hu.com/ka-github.html](http://david-hu.com/ka-github.html)) and [Kiln changesets](http://david-hu.com/ka-kiln.html)'
-    - employer: University of Waterloo
-      title: Undergraduate Research Assistant
-      location: Waterloo, ON
-      dates: May 2011 - August 2011
-      description:
-        - 'Implemented map reduce algorithms to cluster near-duplicate documents in a web crawl'
-        - 'Optimized runs for Hadoop running on Amazon Elastic MapReduce'
-    - employer: Google
-      title: Software Intern
-      location: Mountain View, CA
-      dates: January - April, 2011
-      description:
-        - 'Designed and implemented a multi-threaded cross-platform automation framework for Google Earth in C++'
-    - employer: Google
-      title: Software Intern - Mobile
-      location: Waterloo, ON
-      dates: May - August, 2010
-      description:
-        - 'Implemented product features for Google Mobile Docs; find workarounds for browser bugs'
-        - 'Derived cubic Bezier math for emulating native scrolling using CSS 3D transforms - [googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html](http://googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html)'
-        - 'Optimized speed by exploiting JavaScript implementations and improving data structures'
-    - employer: TD Bank Financial Group
-      title: IT Student Analyst
-      location: Toronto, ON
-      dates: August 2009
-      description:
-        - 'Developed data analysis and report tools; developed automation software saving hours per day'
-#    - employer: CSC Assembly (Computer Store)
-#      title: Repair assistant
-#      location: Toronto, ON
-#      dates: Summer 2007, 2008
-#      description: []
-
-university:
-    - who: Entrepreneurial Project Programmer
-      where: University of Waterloo
-      when: 2010, 2012
-      what: 'In teams, developed a social course planner ([uwflow.com](http://uwflow.com), 2000 registered users); professional [network-building service](http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me); motivational learning website'
-    - who: ACM Programming Contest Competitor
-      where: University of Waterloo
-      when: 2009 Fall
-      what: 'One of 9 students selected to represent U Waterloo. Trained five hours twice per week with teammates on algorithm problems. Rapidly wrote and debugged code during competition; attained 13th out of 115 at East Central North America.'
-    - who: Software Engineering Class Representative
-      where: University of Waterloo
-      when: 2009 Fall - Present
-      what: 'Took the initiative to write weekly email updates to the class. Co-founded the "Give Me Your Knowledge" student talks series. Founded course on open-source development (work in progress) - [os499.github.com](http://os499.github.com)'
-    - who: IEEE Student Branch Member
-      where: University of Waterloo
-      when: 2009 Fall - Present
-      what: "Designed and implemented a mailing system for U Waterloo's IEEE website in ASP.NET and C#."
-
-highSchool:
-    - who: Programming Team Leader
-      where: High School
-      when: 2007 - 2009
-      what: 'Revitalized club: advertised, recruited, taught lessons, organized practices, motivated participants. Achieved top 5 in provincial competition.'
-    - who: FIRST Robotics Team Leader
-      where: High School
-      when: 2008 - 2009
-      what: 'Facilitated communications, organized meetings, and headed programming team.'
-    - who: Programming Competition Finalist
-      where: Canadian Computing Competition
-      when: Mar. 2009
-      what: 'National Bronze Medalist (top 20 in Canada) in the Canadian Computing Competition.'
-    - who: Programming Competition Champion
-      where: IBM CASCON Competition
-      when: Oct. 2008
-      what: 'Bot coded in Java attained first place in Toronto-area high school AI competition.' #[www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html](https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html)'
-    #- who: Peer Tutoring Club Lead Tutor
-      #where: High School
-      #when: 2008 - 2009
-      #what: ''
-    - who: Xbox Media Trade Show Presenter
-      where: X07, Toronto
-      when: Aug. 2007
-      what: 'Invited by Microsoft to present a video game developed using C# in XNA at X07 in Toronto. Was a hit with the blogs: [thebbps.com/articles/content/x07-warpong.html](http://www.thebbps.com/articles/content/x07-warpong.html)'
+        - 'Developed frontend framework for Verizon Ordering Service using ASP.net, HTML5 and jQuery' 
+        - 'Wrote a batch script for building multiple projects, reducing build time and increasing productivity'
+        - 'Developed Perl script to automate the Load File generation for Oracle DB, increasing productivity of the team' 
+        - 'Published various articles and tools inside the organization for automation and reusability'
+        - 'Received Best Employee and Best Team award with exceptional rating from the customer'
 
 education:
-    - degree: Candidate for Bachelor of Software Engineering
-      school: University of Waterloo
-      dates: 2009 - 2014 (expected)
+    - degree: Master of Science in Information Technology
+      school: Rochester Institute of Technology
+      dates: 2011 - 2014 (expected)
       description:
-        - 'Member of the VeloCity start-up incubator ([velocity.uwaterloo.ca](http://velocity.uwaterloo.ca)) for two terms'
-    - degree: High School Diploma
-      school: Western Technical-Commercial School, Toronto
-      dates: 2009
+        - 'Graduate Assistantship with Full Scholarship'
+    - degree: Bachelor of Technology in Information Technology
+      school: Anna University, India
+      dates: 2004 - 2008
       description:
-        - 'Enrolled in the gifted/enriched program; highest average in graduating class (97.5%)'
+        - 'Served as a forum secretary for the Department, motivated junior students in research activities'
 
-awards:
-    - "Math and Engineering Dean's Honour List for all terms, University of Waterloo"
-    - 'Engineering Faculty Entrance Scholarship, University of Waterloo'
-    - 'Queen Elizabeth II Aiming for the Top Scholarship'
-    - "Governor General's Academic Medal, Western Tech"
-    - 'Euclid Mathematics Contest School Champion, Western Tech'
-    - 'McCall Award for Computer Science and Engineering, Western Tech'
-    - 'Student Recognition Award, Western Tech'
+university:
+    - who: RIT 48 (48 hours to launch a web startup)
+      where: Rochester Institute of Technology
+      when:  March 2012
+      what: 'Won the competition with idea of increasing volunteer engagement, with incentives from local business, which has matured into a startup ([CausBuzz](http://causbuzz.com)).'
+    - who: iOS App Challenge
+      where: Rochester Institute of Technology
+      when:  Spring 2013 
+      what: 'Developed an iOS App with a friend in 7 days, which helps students to short list and navigate the companies best suits their career goals'
 
-interests: 'Ping pong, biking, swimming, jogging, camping, reading, free food'
+#highSchool:
+  #  - who: Programming Team Leader
+  #    where: High School
+  #    when: 2007 - 2009
+  #    what: 'Revitalized club: advertised, recruited, taught lessons, organized practices, motivated participants. Achieved top 5 in provincial competition.'
 
-warning: 'This file was generated. See github.com/divad12/resume for source.'
+
+#awards:
+    #- "Math and Engineering Dean's Honour List for all terms, University of Waterloo"
+interests: 'Dancing, swimming, video games, reading, food'
+
+warning: 'This file was generated. See github.com/saran87/resume for source.'
 
 # TODO:
 # - Improve README

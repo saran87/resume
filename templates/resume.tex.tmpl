@@ -45,7 +45,7 @@ directiveStartToken = !
 \begin{sloppypar} % So long words will wrap to the next line instead of overflowing
 
 \name{;contact.name}
-\address{;contact.github\hspace{1cm};contact.stackoverflow\hspace{1cm};contact.email}
+\address{;contact.website\hspace{1cm};contact.github\hspace{1cm};contact.email}
 
 \begin{resume}
 
@@ -76,6 +76,31 @@ directiveStartToken = !
     \end{position}
 !end for
 
+\section{Education}
+
+\begin{format}
+  \title{l}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{format}
+
+!for ;school in ;education
+    \title{\textbf{;school.degree}}
+    \dates{;school.dates}
+    \location{;school.school}
+    \begin{position}
+        \vspace{-.3cm}
+        !if ;school.description
+            \begin{itemize}
+            !for ;point in ;school.description
+                \item ;point
+            !end for
+            \end{itemize}
+        !else
+            \vspace{-.2cm}
+        !end if
+    \end{position}
+!end for
 
 \section{Other Projects}
 \begin{itemize}
@@ -105,54 +130,9 @@ directiveStartToken = !
 !end for
 
 
-\section {High School Activities}
-
-!for ;activity in ;highSchool
-    \title{\textbf{;activity.who}}
-    \location{;activity.when}
-    \begin{position}
-        !if ;activity.what
-            ;activity.what
-        !else
-            \vspace{-0.5cm}
-        !end if
-    \end{position}
-!end for
 
 
-\section{Education}
 
-\begin{format}
-  \title{l}\\
-  \location{l}\dates{r}\\
-  \body\\
-\end{format}
-
-!for ;school in ;education
-    \title{\textbf{;school.degree}}
-    \dates{;school.dates}
-    \location{;school.school}
-    \begin{position}
-        \vspace{-.3cm}
-        !if ;school.description
-            \begin{itemize}
-            !for ;point in ;school.description
-                \item ;point
-            !end for
-            \end{itemize}
-        !else
-            \vspace{-.2cm}
-        !end if
-    \end{position}
-!end for
-
-
-\section{Awards}
-\begin{itemize}
-    !for ;award in ;awards
-        \item ;award
-    !end for
-\end{itemize}
 
 
 \section{Interests}
