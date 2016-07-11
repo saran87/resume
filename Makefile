@@ -11,13 +11,13 @@ publish: output/resume.pdf resume.html
 	cp output/resume.pdf submit/davidhu-resume.pdf
 
 output/resume.pdf: output/resume.tex res.cls
-	pdflatex -interaction=batchmode -output-directory output $<
+	/usr/local/texlive/2013/bin/universal-darwin/pdflatex -interaction=batchmode -output-directory output $<
 
 output/resume.tex: templates/resume.tex.tmpl resume.yaml genresumes.py
-	./genresumes.py tex
+	python genresumes.py tex
 
 output/resume.txt: templates/resume.txt.tmpl resume.yaml genresumes.py
-	./genresumes.py txt
+	python genresumes.py txt
 
 .PHONY: clean
 clean:
