@@ -7,7 +7,7 @@ contact:
 projects:
     - Massive data analysis projects, friends of friends recommendation, Twitter sentiment analysis, recommendation engine using collaborative filtering [https://github.com/saran87/machine-learning](https://github.com/saran87/machine-learning)
     - Built a lightweight MVC framework for PHP, and developed a two player game on it, Check [game arcade](https://github.com/saran87/gamearcade)
-    - Built web apps in AngularJS + Laravel + MongoDB, PHP + MySQL, C# + ASP.NET
+    # - Built web apps in AngularJS + Laravel + MongoDB, PHP + MySQL, C# + ASP.NET
 #- Technical Knowledge:
     #- 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
     #- 'JavaScript: Optimizations and browser bug workarounds for Google Docs; Node.js; jQuery'
@@ -21,24 +21,24 @@ projects:
     #- 'Interested in startups, AI, machine learning, compilers, algorithms'
 
 work:
-    - employer: 'Xerox Litigation Services'
-      title: Software Developer
+    - employer: 'Conduent Inc (erstwhile Xerox Corporation)'
+      title: Senior Software Developer
       location: Albany, NY
       dates: July 2015 - Present
       description:
-        - Developed & maintained microservices using Python, Rabbitmq, MySQL, Kafka & JavaScript.
+        - Developed & maintained microservices using Python, Celery, Rabbitmq, Redis, MySQL, Kafka & JavaScript.
         - Used Kafka as centralized distributed messaging platform for processing data in real-time reliably and efficiently.
-        - Developed provisioning and deployment scripts using Ansible scripts. Enabling code release frequently with zero downtime reliably and more efficiently.
         - Created a micro service framework in Python, enabling developers to stand up a microservice with a Kafka-consumer & Restful API's within hours.
+        - Developed provisioning and deployment scripts using Ansible. Enabling automatic code release with zero downtime.
     - employer: '[pak-track.com](http://www.pak-track.com)'
       title: Software Developer
       location: Rochester, NY
       dates: January 2013 - 2015
       description:
-        - Led the software development team and developed the infrastructure to store, analyze and visualize streaming data from sensors
+        - Set up the real-time data processing server with Python celery framework and Python Tornado framework. Enabling real-time vibration & shock data processing, in turn, increasing the customers usability.
+        # - Led the software development team and developed the infrastructure to store, analyze and visualize streaming data from sensors
         - Developed a model for predicting drop height and face of impact using machine learning techniques
-        - SSet up the real-time data processing server with Python celery framework and Python Tornado framework. Enabling real-time vibration & shock data processing, in turn, increasing the customers usability.
-        - Worked with Java, C, Protocol Buffer, MongoDB, MySQL, JavaScript, d3.js, AWS, Redis
+        - Worked with Java, netty.io, Protocol Buffer, MongoDB, MySQL, JavaScript, d3.js, AWS, Celery
     - employer: '[CausBuzz](http://causbuzz.com): Parental Engagement'
       title: Co-founder & CTO
       location: Rochester, NY
@@ -52,15 +52,15 @@ work:
       location: Chennai, India
       dates: June 2008 - August 2011
       description:
-        - Wrote a batch script for building multiple DOT Net projects, reducing build time and increasing productivity
+        # - Wrote a batch script for building multiple DOT Net projects, reducing build time and increasing productivity
         - Developed Perl script to automate the Load File generation for Oracle DB, increasing productivity of the team
-        - Published various articles and tools inside the organization for automation and reusability
+        # - Published various articles and tools inside the organization for automation and reusability
         - Received Best Employee and Best Team award with exceptional rating from the customer
 
 education:
     - degree: Master of Science in Information Technology
       school: Rochester Institute of Technology
-      dates: 2011 - 2014 (expected)
+      dates: 2011 - 2017 (expected)
       description:
         - 'Graduate Assistantship with Full Scholarship'
     - degree: Bachelor of Technology in Information Technology

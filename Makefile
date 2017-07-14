@@ -4,11 +4,10 @@ files=output/resume.pdf resume.html output/resume.tex resume.yaml output/resume.
 
 # TODO: use rsync
 .PHONY: publish
-publish: output/resume.pdf resume.html
+publish: output/resume.pdf
 	scp $(files) forge@sknadar.me:/home/forge/default/public/
 	scp $(files) forge@sknadar.me:/home/forge/default/public/
 	scp $(files) forge@sknadar.me:/home/forge/default/public/
-	cp output/resume.pdf submit/saravana-resume.pdf
 
 output/resume.pdf: output/resume.tex res.cls
 	/usr/local/texlive/2013/bin/universal-darwin/pdflatex -interaction=batchmode -output-directory output $<
